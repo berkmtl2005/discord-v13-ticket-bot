@@ -7,7 +7,7 @@ module.exports = {
 
         var KARISIKDURUM = 1
         setInterval(async () => {
-            status =  [`Ticket Bot`, `TheTomenTosa Dev.`, `<3`]
+            status =  [`Ben Laves`, `Celestial.`, `<3`]
             KARISIKDURUM = (KARISIKDURUM + 2) % (status.length);
             client.user.setPresence({
                 activities: [{
