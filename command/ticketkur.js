@@ -13,19 +13,34 @@ module.exports = {
 					.setPlaceholder('Oluşturulacak bilet türünü seçin.')
 					.addOptions([
 						{
-							label: '❤️ | Ortak',
-							description: 'Bir ortaklık bileti açın.',
-							value: 'ortaklık',
+							label: '❤️ | Item İade',
+							description: 'Bir iade bileti açın.',
+							value: 'iade',
 						},
 						{
-							label: '😠 | Şikayet',
+							label: '📬 | Oyuncu Şikayet',
 							description: 'Şikayet bileti aç ',
 							value: 'şikayet',
 						},
-                        {
+						{
+							label: '❗️ | Bug Bildirim',
+							description: 'Bug Bildirim bileti aç ',
+							value: 'bug',
+						},
+						{
+							label: '❓ | Yardım',
+							description: 'Bug Bildirim bileti aç ',
+							value: 'yardoö',
+						},
+                                                {
 							label: '🆘 | Yetkili Alım',
 							description: 'Yetkili alım başvurusunda bulunmak için bir bilet açın',
 							value: 'yetkili',
+						},
+						{
+							label: '🛑 | Genel',
+							description: 'Genel için bir bilet açın',
+							value: 'genel',
 						},
 					]),
 			);
