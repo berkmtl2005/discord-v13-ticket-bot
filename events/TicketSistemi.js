@@ -34,7 +34,7 @@ module.exports = {
         }
 
         if (interaction.customId == "select") {
-            if (DejaUnChannel) return interaction.reply({content: '<:arp:970266108701601833> Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
+            if (DejaUnChannel) return interaction.reply({content: '<:celestial_onay:1005235245550936165> Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
             if (interaction.values[0] == "yetkili") {
                 interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
                     type: 'GUILD_TEXT',
@@ -60,7 +60,7 @@ module.exports = {
                     .setDescription('Lütfen başvurunuzu detaylandırın, böylece bir sunucu moderatörü sorumluluğu üstlenecek.')
                     .setFooter('TheTomenTosaDev. Ticket')
                     c.send({embeds: [yetkili], content: `${roleStaff} | ${interaction.user}`, components: [row]})
-                    interaction.reply({content: `<:art:970266097913827348> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
+                    interaction.reply({content: `<:celestial_onay:1005235245550936165> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
                 })
                 
             } else if (interaction.values[0] == "şikayet") {
@@ -88,7 +88,7 @@ module.exports = {
                     .setDescription('Lütfen şikayetinizi detaylandırın ki bir sunucu moderatörü gelip ilgilensin.')
                     .setFooter('TheTomenTosaDev. Ticket')
                     c.send({embeds: [şikayet], content: `${roleStaff} | ${interaction.user}`, components: [row]})
-                    interaction.reply({content: `<:art:970266097913827348> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
+                    interaction.reply({content: `<:celestial_onay:1005235245550936165> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
                 })
             } else if (interaction.values[0] == "ortaklık") {
                 interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
@@ -115,7 +115,7 @@ module.exports = {
                     .setDescription('Lütfen başvurunuzu detaylandırın, böylece bir sunucu moderatörü sorumluluğu üstlenecek.')
                     .setFooter('TheTomenTosaDev. Ticket')
                     c.send({embeds: [embed], content: `${roleStaff} | ${interaction.user}`, components: [row]})
-                    interaction.reply({content: `<:art:970266097913827348> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
+                    interaction.reply({content: `<:celestial_onay:1005235245550936165> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
                 })
                 
             
