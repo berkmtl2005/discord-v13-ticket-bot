@@ -30,7 +30,7 @@ module.exports = {
 						{
 							label: '❓ | Yardım',
 							description: 'Bug Bildirim bileti aç ',
-							value: 'yardoö',
+							value: 'yardım',
 						},
                                                 {
 							label: '🆘 | Yetkili Alım',
