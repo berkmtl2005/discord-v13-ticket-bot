@@ -13,9 +13,9 @@ module.exports = {
 					.setPlaceholder('Oluşturulacak bilet türünü seçin.')
 					.addOptions([
 						{
-							label: '❤️ | Item İade',
-							description: 'Bir iade bileti açın.',
-							value: 'iade',
+							label: '🛑 | Genel',
+							description: 'Genel için bir bilet açın.',
+							value: 'genel',
 						},
 						{
 							label: '📬 | Oyuncu Şikayet',
@@ -23,9 +23,9 @@ module.exports = {
 							value: 'şikayet',
 						},
 						{
-							label: '❗️ | Bug Bildirim',
-							description: 'Bug Bildirim bileti aç ',
-							value: 'bug',
+							label: '❗️ | Item İade',
+							description: 'item iade bileti aç ',
+							value: 'iade',
 						},
 						{
 							label: '❓ | Yardım',
@@ -37,11 +37,6 @@ module.exports = {
 							description: 'Yetkili alım başvurusunda bulunmak için bir bilet açın',
 							value: 'yetkili',
 						},
-						{
-							label: '🛑 | Genel',
-							description: 'Genel için bir bilet açın',
-							value: 'genel',
-						},
 					]),
 			);
 
@@ -50,7 +45,7 @@ module.exports = {
                 title: 'Bilet Açın',
                 description: '**__Bir Bilet Nasıl Açılır :__**\nLütfen açmak istediğiniz bilet türünü seçin.',
                 color: "RED",
-                footer: {text: 'TheTomenTosaDev. Ticket'}
+                footer: {text: 'Celestial. Ticket'}
             }],
             components: [row]
         })
